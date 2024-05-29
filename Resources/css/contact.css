@@ -1,0 +1,64 @@
+section{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.leftside {
+    width: 49%;
+    text-align: right;
+    padding: 0 1% 0 0;
+    margin-bottom: 30px;
+}
+
+.rightside {
+    width: 50%;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.marketing {
+    color: white;
+    background-color: #2C6209;
+}
+
+p {
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input, textarea {
+    margin: 0 10% 10px 10%;
+}
+
+input[type=submit]{
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+label {
+    margin: 0 10%;
+}
+
+section img {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+}

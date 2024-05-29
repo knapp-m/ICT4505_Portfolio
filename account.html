@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Thyme Saver</title>
+    <script src="https://kit.fontawesome.com/3f1fd233a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Resources/css/main.css">
+    <link rel="stylesheet" href="./Resources/css/account.css">
+</head>
+<body class="flexcolumn">
+    <header class="flexrowheader">
+        <a href="./index.html" class="logolink"><img src="./Resources/img/logo.png" id="logo" alt="Thyme Saver Logo"></a>        <nav class="flexrow">
+            <a href="./about.html" class="navlink">About</a>
+            <a href="./contact.html" class="navlink">Contact Us</a>
+            <a href="./login.html" class="navlink">Account</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" id="search" required>
+            <input type="submit">
+        </form>
+        <section class="leftpanel">
+            <!-- Recipe Icons pulled from SQL database -->
+        </section>
+        <section class="rightmain">
+            <article class="ingredients"></article>
+             <!-- Recipe Ingredients pulled from SQL database -->
+            <article class="Directions"></article>
+             <!-- Recipe Directions pulled from SQL database -->
+        </section>
+    </main>
+    <footer class="flexcolumn">
+        <div class="flexrow spaceevenly">
+            <div class="flexcolumn">
+                <h2>Follow Us</h2>
+                <div class="flexrow icons">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-x-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </div>
+            </div>
+            <div class="flexcolumn leftalign">
+                <a href="#" class="footerlink">Blog</a>
+                <a href="#" class="footerlink">Support</a>
+                <a href="#" class="footerlink">Privacy Policy</a>
+                <a href="#" class="footerlink">Terms of Use</a>
+            </div>
+        </div>
+        <p>Copyright © 2024 Thyme Saver - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
